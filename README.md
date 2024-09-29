@@ -1,29 +1,32 @@
-# Doidoido
-日曜19:00(JST,UTC+9)に月曜の接近をお知らせしてくれるDiscordのbot。間違えて消したので二代目。
+# これは何？
+
 ![スクリーンショット 2024-09-29 174312](https://github.com/user-attachments/assets/37b082f6-8b0b-4a23-bc7e-8625bf814ca1)
 
-DiscordのBot。 https://discord.com/developers/ でトークンを取得し、適当に貼り付けて cmdでPython bot.pyすればいい感じに動きます。
+日曜19:00(JST,UTC+9)に月曜の接近をお知らせしてくれるDiscordのbot。間違えて消したので二代目。
+https://discord.com/developers/ でトークンを取得し、token.jsonに適当に貼り付けて、cmdでPython bot.pyすればいい感じに動きます。
 
 クソコードです。
 
 
-
-できること
+# できること
 
 ![スクリーンショット 2024-09-29 174407](https://github.com/user-attachments/assets/efa54390-7460-4e8b-8f48-837b49d8a879)
 
 ・/doidoidoコマンドで指定したチャンネルに毎週日曜日 19:00に月曜が近いことをお知らせしてくれます。
+
 (・/Let_us_go_mondayで指定したチャンネルには毎週火曜日0:00に月曜が過ぎ去ったことをお知らせしてくれます。・/byebye_mondayで指定したチャンネルには毎週火曜日0:00に月曜が過ぎ去ったことをお知らせしてくれます。)
+
 →なんかバグるので今は使えない　気分が乗ったら修正
 
 ・スラッシュとコマンドの間に"remove_"を入力すると、チャンネル設定を解除してくれます。
 
 ・「どぅいどぅいどぅ～」と「月曜が近いよ」、「甘苦いサンデー」に反応してくれます。
 
+
 なんかいい感じな機能あるいはコードを書いてくれる方がいたら適当にPull Requestsしてください。
 
 
-必須
+# 必要なもの
 
 ・Python
 
