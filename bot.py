@@ -139,7 +139,7 @@ async def add_commands():
 
 @bot.event
 async def on_ready():
-    print('ログインしました！')
+    print('ちょこbot Ver.1.0    起動しました！')
     await add_commands()
     load_channel_data()
     if doidoido_channel_ids:
